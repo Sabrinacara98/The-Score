@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">The Score</string>
+
+    <string-array name="person">
+        <item>Player</item>
+        <item>Coach</item>
+        <item>Referee</item>
+    </string-array>
+
+    <string-array name="action">
+        <item>Score</item>
+        <item>Foul</item>
+        <item>Change</item>
+    </string-array>
+
+    <string-array name="team">
+        <item>Team A</item>
+        <item>Team B</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".statisticsTeam">
+
+    <TextView
+        android:id="@+id/titleBid"
+        android:layout_width="414dp"
+        android:layout_height="53dp"
+        android:background="#6CBEC9"
+        android:shadowColor="#00F54545"
+        android:text="Team A Statistics"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="81dp"
+            android:text="Games"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="81dp"
+            android:text="Min Played"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="79dp"
+            android:layout_height="81dp"
+            android:text="3P"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="46dp"
+            android:layout_height="81dp"
+            android:text="2P"
+            android:textSize="24sp" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="81dp"
+            android:text="82"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="81dp"
+            android:text="19805"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="79dp"
+            android:layout_height="81dp"
+            android:text="660"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="46dp"
+            android:layout_height="81dp"
+            android:text="2623"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="81dp"
+            android:text="3P A"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="81dp"
+            android:text="2P A"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="81dp"
+            android:text="FT A"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="39dp"
+            android:layout_height="81dp"
+            android:text="ORB"
+            android:textSize="24sp" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="81dp"
+            android:text="1839"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="81dp"
+            android:text="5244"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="79dp"
+            android:layout_height="81dp"
+            android:text="2089"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="59dp"
+            android:layout_height="81dp"
+            android:text="868"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="81dp"
+            android:text="ORB Meaning"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="117dp"
+            android:layout_height="match_parent"
+            android:text="DRB Meaning"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="81dp"
+            android:text="Free Throws"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="61dp"
+            android:layout_height="81dp"
+            android:text="DRB"
+            android:textSize="24sp" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="101dp"
+            android:text="Offensive Rebound"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:text="Defensive Rebound"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:text="1514"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:text="2760"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+
+</TableLayout>
